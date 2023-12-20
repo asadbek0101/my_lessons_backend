@@ -8,6 +8,11 @@ namespace Ststa.WebApi.Controllers;
 [ApiController]
 public class DashboardController : BaseController
 {
+    /// <summary>
+    /// This is dashboard
+    /// </summary>
+    /// <param name="request"></param>
+    /// <returns></returns>
     [HttpGet("GetAll")]
     public async Task<ActionResult<ApiResponse>> GetAll([FromQuery] GetAllTotalRequst request)
     {
