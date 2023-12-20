@@ -1,10 +1,10 @@
 on:
   push:
     branches:
-      - main
+      - my-lessons.uz
   pull_request:
     branches:
-      - main
+      - my-lessons.uz
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
